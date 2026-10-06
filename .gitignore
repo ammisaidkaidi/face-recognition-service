@@ -1,0 +1,25 @@
+# Environment and secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Runtime data and models
+backend/data/*.db
+backend/models/*
+!backend/models/.gitkeep
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
